@@ -6,10 +6,16 @@ Convert PyTorch Models to TFLite and run inference in TFLite Python API.
 
 ## Tested Environment
 
-* pytorch==1.7.1
-* tensorflow==2.4.1
-* onnx==1.8.0
-* onnx-tf==1.7.0
+* pytorch==1.9.0 with CUDA 11.0
+
+    pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+* tensorflow==2.9.0
+
+    pip install tensorflow-gpu==2.9.0
+* protobuf==3.20.3 
+* tensorflow-probability==0.17.0
+* onnx==1.13.0
+* onnx-tf==1.10.0
 
 ## PyTorch to ONNX
 
